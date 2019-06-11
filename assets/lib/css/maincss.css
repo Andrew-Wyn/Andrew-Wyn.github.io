@@ -1,0 +1,79 @@
+.mainbody { 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.headline{
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  height: 200px;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -230px;
+  margin-left: -150px;
+  background-color: white;
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  box-shadow: 10px 10px 5px #dedede;
+}
+
+.listabtn{
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.listabtn li{
+  display: inline;
+}
+
+.btngit{
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  border-radius: 50px; 
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.btngit:hover{
+  cursor: pointer;
+  background-color: red;
+}
+
+.btngit img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12px;
+  margin-left: -12px;
+  height: 24px;
+  width: 24px;
+}
