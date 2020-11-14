@@ -63,3 +63,34 @@ body {
 .social-item:hover {
   cursor: pointer;
 }
+
+/* css for single pages */
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.header > a:link {
+  color: white;
+}
+
+.header > a:visited {
+  color: white;
+}
+
+.header > a:hover {
+  color: white;
+}
+
+.header > a:active {
+  color: white;
+}
+
+.main-content {
+  margin-top: 100px;
+  padding: 0% 20% 0% 20%;
+}
