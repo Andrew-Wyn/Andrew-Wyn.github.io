@@ -5,6 +5,8 @@ html {
 body {
   margin: 0px !important;
   font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
 }
 
 #presentation {
@@ -72,6 +74,7 @@ body {
   background-color: red;
   color: white;
   text-align: center;
+  z-index: 999;
 }
 
 .header > a:link {
@@ -93,4 +96,12 @@ body {
 .main-content {
   margin-top: 100px;
   padding: 0% 20% 0% 20%;
+}
+
+.page-image {
+  height: 250px;
+  border-radius: 5px;
+  border: 2px solid red;
+  margin: 10px 0px 10px 0px;
+  display: block;
 }
