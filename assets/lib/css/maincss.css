@@ -18,10 +18,10 @@ body {
 
 #identifier {
   position: absolute;
-  top: 40%;
-  left: 40%;
-  width: 20%;
-  height: 20%;
+  top: 30%;
+  left: 30%;
+  width: 40%;
+  height: 40%;
   text-align: center;
   color: white;
 }
