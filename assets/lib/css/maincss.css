@@ -34,6 +34,9 @@ body {
 #nominative {
   padding: 10px;
   height: 20%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 #go-main {
@@ -58,7 +61,7 @@ body {
 }
 
 .social-item {
-  height: 25px;
+  height: 50px;
   margin:10px
 }
 
